@@ -42,14 +42,14 @@
                         <a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" alt="La Chouette Agence - Entreprise de web design à Lyon" height="40" /></a>
                         <!--suppression tooggle button-->
                     </div>
-                    <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+                    <nav class="collapse navbar-collapse navbar-1 special-dropdown-nav">
                         <ul class="site-navigation nav navbar-nav">
                             <li>
                                 <a href="index.html">Accueil</a>
                             </li>
                             <!--suppresion lien page 2-->
                         </ul>
-                    </div>
+                    </nav>
                 </nav>
             </div>
         </header>
@@ -81,27 +81,28 @@
                         <form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
                             <div class="form-group">
                                 <label>
-							Nom
-						 </label>
-                                <input id="name" class="form-control" required />
+							     Nom
+					             <input id="name" class="form-control" required />
+                                </label>
                             </div>
                             <div class="form-group">
                                 <label>
-							Adresse email
-						 </label>
-                                <input id="email" class="form-control" type="email" required />
+							     Adresse email
+						         <input id="email" class="form-control" type="email" required />
+                                </label>
                             </div>
                             <div class="form-group">
                                 <label>
-							Comment nous avez-vous connu ?
-						 </label>
-                                <!--label erroné-->
-                                <input class="form-control" type="text" required id="input_504" />
+							     Comment nous avez-vous connu ?
+						         <!--label erroné-->
+                                 <input class="form-control" type="text" required id="input_504" />
+                                </label>
                             </div>
                             <div class="form-group">
                                 <label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						 </label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							     Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+                                 <textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						       </label>
                             </div>
                             <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						    Envoyer
@@ -128,9 +129,10 @@
             <div class="container bloc-sm">
                 <div class="row">
                     <div class="col-sm-12">
-                        <p class="text-center white">
+                        <!--modification en h2 du paragraphe titre du footer-->
+                        <h2 class="text-center white">
                             La chouette agence - Agence web basée à Lyon.<br>
-                        </p>
+                        </h2>
                         <div class="row row-no-gutters social">
                             <div class="col-sm-3">
                                 <div class="text-center">

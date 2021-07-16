@@ -335,6 +335,9 @@ a:hover {
 .nav>li a:hover,
 .nav>li a:focus {
     background: transparent;
+    text-decoration: underline;
+    font-weight: bold;
+    color: #514F46 !important;
 }
 
 .navbar-toggle {
@@ -437,7 +440,7 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .mg-lg {
@@ -677,7 +680,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -710,7 +713,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 17px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
