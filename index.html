@@ -44,6 +44,9 @@
                     <div class="navbar-header">
                         <!--suppression div keywords et button toggle inutile + changement alt pour mots clés-->
                         <a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.webp" alt="La Chouette Agence - Entreprise de web design à Lyon" height="40" /></a>
+                        <button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+                            <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                        </button>
                     </div>
                     <nav class="collapse navbar-collapse navbar-1 special-dropdown-nav">
                         <ul class="site-navigation nav navbar-nav">
@@ -231,7 +234,9 @@
             </div>
         </section>
         <!-- bloc-5-cta END -->
-
+        <!-- ScrollToTop Button -->
+        <a class="bloc-button btn btn-d scrollToTop" onclick="scrollToTarget('1')"><span class="fa fa-chevron-up"></span></a>
+        <!-- ScrollToTop Button END-->
         <!-- Footer - bloc-8 -->
         <footer class="bloc bgc-atomic-tangerine d-bloc" id="bloc-8">
             <div class="container bloc-sm">
@@ -245,22 +250,22 @@
                         <div class="row row-no-gutters social">
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+                                    <a class="social" aria-label="twitter" rel="external" href="https://twitter.com"><span class="fa fa-twitter icon-md"></span></a>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+                                    <a class="social" aria-label="facebook" rel="external" href="https://facebook.com"><span class="fa fa-facebook icon-md"></span></a>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+                                    <a class="social" aria-label="dribbble" rel="external" href="https://dribbble.com"><span class="fa fa-dribbble icon-md"></span></a>
                                 </div>
                             </div>
                             <div class="col-sm-3">
                                 <div class="text-center">
-                                    <a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+                                    <a class="social" aria-label="instagram" rel="external" href="https://instagram.com"><span class="fa fa-instagram icon-md"></span></a>
                                 </div>
                             </div>
                             <!--suppression div keywords dans le footer-->
