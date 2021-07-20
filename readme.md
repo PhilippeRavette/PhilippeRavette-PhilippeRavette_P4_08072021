@@ -41,7 +41,7 @@ Compétences évaluées
 
 Résultat de l'audit :
 
-[Les résultats sont consultables ici!](https://github.com/PhilippeRavette/PhilippeRavette_P4_08072021/blob/main/P4_01_analyse.xlsx)
+[Les résultats sont consultables ici](https://github.com/PhilippeRavette/PhilippeRavette_P4_08072021/blob/main/P4_01_analyse.xlsx)
 
 Site web statique :
 
