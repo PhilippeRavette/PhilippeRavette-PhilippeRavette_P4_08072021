@@ -41,7 +41,8 @@ Compétences évaluées
 
 Résultat de l'audit :
 
-[Les résultats sont consultables ici!](D:\phil\FORMATION\OPENCLASSROOM\PARCOURS DEV WEB\PROJET 4 - OPTIMISEZ UN SITE WEB EXISTANT\MA CHOUETTE AGENCE\P4_la_chouette_agence\P4_01_analyse.xlsx)
+[Les résultats sont consultables ici!](https://github.com/PhilippeRavette/PhilippeRavette_P4_08072021/blob/main/P4_01_analyse.xlsx)
+
 Site web statique :
 
-Le site optimisé est consultable par ici
+[Le site optimisé est consultable par ici](https://github.com/PhilippeRavette/PhilippeRavette_P4_08072021/deployments/activity_log?environment=github-pages)
