@@ -81,30 +81,37 @@
                 <h2>Formulaire de contact</h2>
                 <div class="row">
                     <div class="col-sm-6">
-                        <form id="form_1" novalidate>
+                        <form id="form_1" novalidate="">
                             <div class=" form-group">
                                 <label>
 							     Nom
-					             <input id="name" class="form-control" required />
+					             <input id="name" class="form-control" placeholder="Entrez votre nom" required />
                                 </label>
                             </div>
                             <div class="form-group">
                                 <label>
 							     Adresse email
-						         <input id="email" class="form-control" type="email" required />
+						         <input id="email" class="form-control" type="email" placeholder="Entrez votre e-mail"required />
                                 </label>
                             </div>
                             <div class="form-group">
                                 <label>
 							     Comment nous avez-vous connu ?
-						         <!--label erroné-->
-                                 <input class="form-control" type="text" required id="input_504" />
+                                 <select name="question-notorieté" id="choice-select">
+                                    <option value="">--Merci de choisir parmi ces réponses--</option>
+                                    <option value="Internet">Internet</option>
+                                    <option value="Publicité">Publicité</option>
+                                    <option value="Publicité">T</option>
+                                    <option value="Bouche a oreille ">Bouche à oreille</option>
+                                    <option value="Réseaux sociaux">Réseaux sociaux</option>
+                                    <option value="Autre">Autre</option>
+                                  </select>
                                 </label>
                             </div>
                             <div class="form-group">
                                 <label>
 							     Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-                                 <textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+                                 <textarea id="message" class="form-control" rows="4" cols="50" placeholder="Detaillez votre projet"required></textarea>
 						       </label>
                             </div>
                             <button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
